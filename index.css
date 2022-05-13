@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body, html {
+    height: 100%;
+    font-family: 'Koulen', cursive;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 8vh;
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+    padding:0 2vw;
+}
+
+header > .row{
+    width: 100%;
+}
+.content-1{
+    background: url("./assets/main-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.content-2{
+    background: url("./assets/the-games-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;  
+}
