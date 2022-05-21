@@ -2,8 +2,11 @@
 body, html {
     height: 100%;
     font-family: 'Koulen', cursive;
+    color: white;
 }
 
+
+/* header */
 header{
     background-color: rgba(0, 0, 0, 0.4);
     height: 8vh;
@@ -17,16 +20,168 @@ header{
 header > .row{
     width: 100%;
 }
-.content-1{
+.header-sign{
+    margin-right: 5%;
+    width: 20vw;
+
+}
+.header-navigation{
+    /* margin-right: 1%; */
+    /* border: 1px solid pink; */
+    width: 30vw;
+}
+
+.header-navigation > div {
+    margin: 0 1%;
+    /* border: 1px solid black; */
+    width: 5vw;
+}
+
+.header-sign > div {
+    margin: 0 10%;
+}
+
+/* header */
+
+/* content 1 */
+
+#content-1{
     background: url("./assets/main-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    background-position: center;
+    height: 125vh;
+    padding-bottom: 10%;
 }
 
-.content-2{
+/* content 1 */
+
+/* content 2 */
+
+
+#content-2{
     background: url("./assets/the-games-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;  
+    background-position: center;
+    height: 120vh;  
 }
+
+#content-2 > div{
+    /* border: 2px solid pink; */
+}
+
+
+.c2-box-1{
+    width: 35%;
+    height: 60vh;
+    padding: 1% 4%;
+    letter-spacing: 0.5rem;
+}
+
+.c2-box-2{
+    width: 65%;
+    height: 60vh;
+    padding: 5% 12% 0 0;
+
+}
+
+.c2-box-2-img{
+    /* position: relative; */
+    background: url("./assets/rockpaperstrategy-1600.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bullet-box{
+    /* border: 2px solid pink; */
+    position: absolute;
+    bottom: 2%;
+    right: 15%;
+    width: 25vw;
+}
+
+
+
+.left-button-carousel{
+    position: absolute;
+    bottom: 45%;
+    left:-5%;
+    font-size: 3rem;
+}
+
+.right-button-carousel{
+    position: absolute;
+    bottom: 45%;
+    right:-5%;
+    font-size: 3rem;
+}
+
+/* content 2 */
+
+
+/* content 3 */
+
+#content-3{
+    background: url("./assets/features.jpg");
+    height: 135vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.features-info{
+    width: 35vw;
+    position: absolute;
+    right:7.5%;
+    top: 20%;
+}
+.features-menu{
+    position: relative;
+    margin: 3% 0 3% 0;
+    height: 15vh;
+    margin-left: 8.5%;
+}
+
+.features-bullet{
+    position: absolute;
+    left: -15%;
+    top:10%
+}
+
+.bullet-line{
+    height: 17vh;
+    border: 1px solid white;
+    width: 1px;
+    position:absolute;
+    left: -9%;
+    top:10%
+}
+
+.features-headline {
+    color:#fb8c00;
+    letter-spacing: 0.5rem;
+}
+
+/* content 3 */
+
+
+/* bullet */
+.bullet{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 0 5%;
+}
+
+.active-bullet { 
+    background-color: white;
+}
+
+/* bullet */
